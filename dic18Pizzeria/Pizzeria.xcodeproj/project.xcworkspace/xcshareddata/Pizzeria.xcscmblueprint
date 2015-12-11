@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BA5A64998B1B9396CBAEE6C92488B8CB9511C11E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BA5A64998B1B9396CBAEE6C92488B8CB9511C11E" : 0,
+    "F1C553C10E26E300A6DFA97B2F3D9FF93E26928C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3B4C03A2-DB0A-462D-B315-44A8BB8CA402",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BA5A64998B1B9396CBAEE6C92488B8CB9511C11E" : "Pizzeria\/",
+    "F1C553C10E26E300A6DFA97B2F3D9FF93E26928C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pizzeria",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Pizzeria.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/reginaesquer\/tarea2Pizza.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BA5A64998B1B9396CBAEE6C92488B8CB9511C11E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/reginaesquer\/pizzeria.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1C553C10E26E300A6DFA97B2F3D9FF93E26928C"
+    }
+  ]
+}

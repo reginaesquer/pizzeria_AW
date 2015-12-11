@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pizzeria/ViewController3Queso.swift"
+            timestampString = "471065833.33307"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "ViewController3Queso"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pizzeria.ViewController3Queso.tama&#xf1;oValor.setter : Swift.String"
+                  moduleName = "Pizzeria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vital/Documents/Semana%202/Pizzeria/Pizzeria/ViewController3Queso.swift"
+                  timestampString = "471066034.287987"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pizzeria.ViewController3Queso.tama&#xf1;oValor.materializeForSet : Swift.String"
+                  moduleName = "Pizzeria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vital/Documents/Semana%202/Pizzeria/Pizzeria/ViewController3Queso.swift"
+                  timestampString = "471066034.288381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pizzeria.ViewController3Queso.init (Pizzeria.ViewController3Queso.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Pizzeria.ViewController3Queso"
+                  moduleName = "Pizzeria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vital/Documents/Semana%202/Pizzeria/Pizzeria/ViewController3Queso.swift"
+                  timestampString = "471066034.288656"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pizzeria.ViewController3Queso.init (Pizzeria.ViewController3Queso.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Pizzeria.ViewController3Queso&gt;"
+                  moduleName = "Pizzeria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vital/Documents/Semana%202/Pizzeria/Pizzeria/ViewController3Queso.swift"
+                  timestampString = "471066034.288909"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "214">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
