@@ -205,7 +205,6 @@
                         <outlet property="ing3" destination="yJE-rt-cIw" id="KNX-fd-jEV"/>
                         <outlet property="ing4" destination="h8l-gP-D3i" id="lfJ-bf-937"/>
                         <outlet property="ing5" destination="GlF-wz-rhI" id="xnn-yz-AH8"/>
-                        <outlet property="ingredientes" destination="FLc-iF-As6" id="vHL-dR-LKe"/>
                         <outlet property="masa" destination="6b2-5O-lby" id="dUD-Mk-nEo"/>
                         <outlet property="queso" destination="BYY-rO-KxA" id="AuD-pC-0gp"/>
                         <outlet property="tamaño" destination="fd1-aW-jeq" id="HRh-JW-127"/>

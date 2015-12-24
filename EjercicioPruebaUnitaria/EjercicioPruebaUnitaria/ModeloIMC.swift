@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class modeloIMC {
+    var peso : Float = 0
+    var estatura : Float = 0
+    
+    func IMC () -> Float {
+        var imc = peso/(estatura*estatura)
+        imc = round(imc*100)/100
+        return imc
+    }
+}

@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9527.1" systemVersion="14F1021" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9525.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9513.1"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="pruebaInterfaz_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="GKk-SH-YBp">
+                            <items>
+                                <button width="136" alignment="left" title="Saludar" id="gcC-kL-Y58"/>
+                                <label width="1" alignment="left" text="Hola Mundo !!!!" textAlignment="center" id="gU7-tW-GiV"/>
+                            </items>
+                        </group>
+                        <separator alignment="left" id="Ycp-Y8-U9j"/>
+                        <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="vmd-2f-S5Q"/>
+                        <switch width="1" alignment="left" value="YES" title="Modo avión" id="IYO-Ic-i9V"/>
+                    </items>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="423" y="289"/>
         </scene>
     </scenes>
 </document>

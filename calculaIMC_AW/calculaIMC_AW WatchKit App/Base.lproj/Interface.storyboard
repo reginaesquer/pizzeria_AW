@@ -1,15 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9527.1" systemVersion="14F1021" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9525.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9513.1"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="calculaIMC_AW_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="NSk-gE-frs">
+                            <items>
+                                <label alignment="left" text="Peso" id="jEV-fd-h2B"/>
+                                <label width="92" alignment="left" text="45" textAlignment="right" id="sHe-Up-Jaf"/>
+                            </items>
+                        </group>
+                        <slider width="1" alignment="left" value="45" minimum="45" maximum="200" steps="155" id="Vds-lB-AUg">
+                            <connections>
+                                <action selector="nuevoValorPeso:" destination="AgC-eL-Hgc" id="YRi-fw-6Ch"/>
+                            </connections>
+                        </slider>
+                        <group width="1" alignment="left" id="AtD-Kg-i47">
+                            <items>
+                                <label alignment="left" text="Estatura" id="pEV-n5-5Dn"/>
+                                <label width="69" alignment="left" text="50" textAlignment="right" id="jag-UR-diR"/>
+                            </items>
+                        </group>
+                        <slider width="1" alignment="left" value="50" minimum="50" maximum="230" steps="180" id="KgO-7t-229">
+                            <connections>
+                                <action selector="nuevoValorEstatura:" destination="AgC-eL-Hgc" id="H9m-Yp-t5F"/>
+                            </connections>
+                        </slider>
+                        <button width="1" height="24" alignment="left" title="Calcular" id="l38-pl-njm">
+                            <connections>
+                                <action selector="accionCalcular" destination="AgC-eL-Hgc" id="B33-0Z-IEh"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="valorEstatura" destination="jag-UR-diR" id="Y42-eR-C4a"/>
+                        <outlet property="valorPeso" destination="sHe-Up-Jaf" id="NxJ-Pl-bcZ"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="288" y="276.5"/>
+        </scene>
+        <!--IdentificadorValor-->
+        <scene sceneID="J5v-Mk-WrO">
+            <objects>
+                <controller identifier="IdentificadorValor" id="C6w-7A-gv5" customClass="VistaDetalle" customModule="calculaIMC_AW">
+                    <items>
+                        <label width="136" alignment="left" text="IMC" textAlignment="center" id="POs-FP-Cae"/>
+                        <label width="136" alignment="left" text="Resultado" textAlignment="center" id="V0R-AD-v6X"/>
+                    </items>
+                    <connections>
+                        <outlet property="etiquetaResultado" destination="V0R-AD-v6X" id="U8G-q9-lOd"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="492" y="279"/>
         </scene>
     </scenes>
 </document>

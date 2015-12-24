@@ -12,6 +12,10 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var despliegue: WKInterfaceLabel!
+    @IBAction func saludar() {
+        self.despliegue.setText("Hola Mundo")
+    }
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         

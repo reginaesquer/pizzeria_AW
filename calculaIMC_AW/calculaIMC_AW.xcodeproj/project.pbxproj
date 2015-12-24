@@ -19,6 +19,9 @@
 		E885FE851C1BCC5900F50CF2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E885FE841C1BCC5900F50CF2 /* InterfaceController.swift */; };
 		E885FE871C1BCC5900F50CF2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E885FE861C1BCC5900F50CF2 /* ExtensionDelegate.swift */; };
 		E885FE891C1BCC5900F50CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E885FE881C1BCC5900F50CF2 /* Assets.xcassets */; };
+		E8B905451C20D45900E0BC53 /* Valor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B905441C20D45900E0BC53 /* Valor.swift */; };
+		E8B905471C20D52C00E0BC53 /* VistaDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B905461C20D52C00E0BC53 /* VistaDetalle.swift */; };
+		E8B905771C23FB7A00E0BC53 /* Valor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B905441C20D45900E0BC53 /* Valor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,8 @@
 		E885FE861C1BCC5900F50CF2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		E885FE881C1BCC5900F50CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E885FE8A1C1BCC5900F50CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B905441C20D45900E0BC53 /* Valor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Valor.swift; sourceTree = "<group>"; };
+		E8B905461C20D52C00E0BC53 /* VistaDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VistaDetalle.swift; path = ../VistaDetalle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +151,8 @@
 		E885FE831C1BCC5900F50CF2 /* calculaIMC_AW WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E8B905461C20D52C00E0BC53 /* VistaDetalle.swift */,
+				E8B905441C20D45900E0BC53 /* Valor.swift */,
 				E885FE841C1BCC5900F50CF2 /* InterfaceController.swift */,
 				E885FE861C1BCC5900F50CF2 /* ExtensionDelegate.swift */,
 				E885FE881C1BCC5900F50CF2 /* Assets.xcassets */,
@@ -286,8 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8B905451C20D45900E0BC53 /* Valor.swift in Sources */,
 				E885FE641C1BCC5900F50CF2 /* ViewController.swift in Sources */,
 				E885FE621C1BCC5900F50CF2 /* AppDelegate.swift in Sources */,
+				E8B905471C20D52C00E0BC53 /* VistaDetalle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8B905771C23FB7A00E0BC53 /* Valor.swift in Sources */,
 				E885FE871C1BCC5900F50CF2 /* ExtensionDelegate.swift in Sources */,
 				E885FE851C1BCC5900F50CF2 /* InterfaceController.swift in Sources */,
 			);
@@ -527,6 +537,7 @@
 				E885FE8F1C1BCC5900F50CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E885FE911C1BCC5900F50CF2 /* Build configuration list for PBXNativeTarget "calculaIMC_AW WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +546,7 @@
 				E885FE931C1BCC5900F50CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E885FE951C1BCC5900F50CF2 /* Build configuration list for PBXNativeTarget "calculaIMC_AW" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +555,7 @@
 				E885FE971C1BCC5900F50CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

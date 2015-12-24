@@ -21,16 +21,32 @@ class EjercicioPruebaUnitariaTests: XCTestCase {
         super.tearDown()
     }
     
+    func bajoPeso () {
+        let imc : modeloIMC = modeloIMC ()
+        imc.peso = 50
+        imc.estatura = 1.7
+        XCTAssertEqual(imc.IMC(),17.30,"Correcto Bajo de Peso")
+    }
+    
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let imc : modeloIMC = modeloIMC ()
+        imc.peso = 50
+        imc.estatura = 1.7
+        XCTAssertEqual(imc.IMC(),17.30,"Correcto Bajo de Peso")
+    }
+    
+    func pesoNormal () {
+        let imc : modeloIMC = modeloIMC ()
+        imc.peso = 60
+        imc.estatura = 1.7
+        XCTAssertEqual(imc.IMC(),20.76,"Correcto Peso Normal")
     }
     
     func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
+        let imc : modeloIMC = modeloIMC ()
+        imc.peso = 60
+        imc.estatura = 1.7
+        XCTAssertEqual(imc.IMC(),20.76,"Correcto Peso Normal")
     }
     
 }

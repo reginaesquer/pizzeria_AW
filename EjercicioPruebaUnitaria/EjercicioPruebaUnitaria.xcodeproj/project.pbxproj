@@ -13,6 +13,8 @@
 		E8B9055C1C23F6D500E0BC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B9055B1C23F6D500E0BC53 /* Assets.xcassets */; };
 		E8B9055F1C23F6D500E0BC53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B9055D1C23F6D500E0BC53 /* LaunchScreen.storyboard */; };
 		E8B9056A1C23F6D500E0BC53 /* EjercicioPruebaUnitariaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B905691C23F6D500E0BC53 /* EjercicioPruebaUnitariaTests.swift */; };
+		E8B905751C23F70800E0BC53 /* ModeloIMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B905741C23F70800E0BC53 /* ModeloIMC.swift */; };
+		E8B905761C23F85B00E0BC53 /* ModeloIMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B905741C23F70800E0BC53 /* ModeloIMC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		E8B905651C23F6D500E0BC53 /* EjercicioPruebaUnitariaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjercicioPruebaUnitariaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B905691C23F6D500E0BC53 /* EjercicioPruebaUnitariaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioPruebaUnitariaTests.swift; sourceTree = "<group>"; };
 		E8B9056B1C23F6D500E0BC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B905741C23F70800E0BC53 /* ModeloIMC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeloIMC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				E8B9055B1C23F6D500E0BC53 /* Assets.xcassets */,
 				E8B9055D1C23F6D500E0BC53 /* LaunchScreen.storyboard */,
 				E8B905601C23F6D500E0BC53 /* Info.plist */,
+				E8B905741C23F70800E0BC53 /* ModeloIMC.swift */,
 			);
 			path = EjercicioPruebaUnitaria;
 			sourceTree = "<group>";
@@ -199,6 +203,7 @@
 			files = (
 				E8B905571C23F6D500E0BC53 /* ViewController.swift in Sources */,
 				E8B905551C23F6D500E0BC53 /* AppDelegate.swift in Sources */,
+				E8B905751C23F70800E0BC53 /* ModeloIMC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8B9056A1C23F6D500E0BC53 /* EjercicioPruebaUnitariaTests.swift in Sources */,
+				E8B905761C23F85B00E0BC53 /* ModeloIMC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

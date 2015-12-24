@@ -12,10 +12,14 @@ import Foundation
 
 class VistaDetalle: WKInterfaceController {
 
+    @IBOutlet var etiquetaResultado: WKInterfaceLabel!
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
+        let c = context as! Valor
+        
+        etiquetaResultado.setText(String(c.imc))
     }
 
     override func willActivate() {
