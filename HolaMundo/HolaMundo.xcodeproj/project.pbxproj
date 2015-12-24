@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E885FDD61C1BBB1600F50CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E885FDD51C1BBB1600F50CF2 /* AppDelegate.swift */; };
+		E885FDD81C1BBB1600F50CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E885FDD71C1BBB1600F50CF2 /* ViewController.swift */; };
+		E885FDDB1C1BBB1600F50CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E885FDD91C1BBB1600F50CF2 /* Main.storyboard */; };
+		E885FDDD1C1BBB1600F50CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E885FDDC1C1BBB1600F50CF2 /* Assets.xcassets */; };
+		E885FDE01C1BBB1600F50CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E885FDDE1C1BBB1600F50CF2 /* LaunchScreen.storyboard */; };
+		E885FDE51C1BBB1700F50CF2 /* HolaMundo WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E885FDE41C1BBB1700F50CF2 /* HolaMundo WatchKit App.app */; };
+		E885FDEB1C1BBB1700F50CF2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E885FDE91C1BBB1700F50CF2 /* Interface.storyboard */; };
+		E885FDED1C1BBB1700F50CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E885FDEC1C1BBB1700F50CF2 /* Assets.xcassets */; };
+		E885FDF41C1BBB1700F50CF2 /* HolaMundo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E885FDF31C1BBB1700F50CF2 /* HolaMundo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E885FDFB1C1BBB1700F50CF2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E885FDFA1C1BBB1700F50CF2 /* InterfaceController.swift */; };
+		E885FDFD1C1BBB1700F50CF2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E885FDFC1C1BBB1700F50CF2 /* ExtensionDelegate.swift */; };
+		E885FDFF1C1BBB1700F50CF2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E885FDFE1C1BBB1700F50CF2 /* NotificationController.swift */; };
+		E885FE011C1BBB1700F50CF2 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E885FE001C1BBB1700F50CF2 /* GlanceController.swift */; };
+		E885FE031C1BBB1700F50CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E885FE021C1BBB1700F50CF2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E885FDE61C1BBB1700F50CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E885FDCA1C1BBB1600F50CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E885FDE31C1BBB1700F50CF2;
+			remoteInfo = "HolaMundo WatchKit App";
+		};
+		E885FDF51C1BBB1700F50CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E885FDCA1C1BBB1600F50CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E885FDF21C1BBB1700F50CF2;
+			remoteInfo = "HolaMundo WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E885FE0A1C1BBB1700F50CF2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E885FDF41C1BBB1700F50CF2 /* HolaMundo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E885FE0E1C1BBB1700F50CF2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E885FDE51C1BBB1700F50CF2 /* HolaMundo WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E885FDD21C1BBB1600F50CF2 /* HolaMundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaMundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E885FDD51C1BBB1600F50CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E885FDD71C1BBB1600F50CF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E885FDDA1C1BBB1600F50CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E885FDDC1C1BBB1600F50CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E885FDDF1C1BBB1600F50CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E885FDE11C1BBB1600F50CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E885FDE41C1BBB1700F50CF2 /* HolaMundo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HolaMundo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E885FDEA1C1BBB1700F50CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E885FDEC1C1BBB1700F50CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E885FDEE1C1BBB1700F50CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E885FDF31C1BBB1700F50CF2 /* HolaMundo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HolaMundo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E885FDF91C1BBB1700F50CF2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		E885FDFA1C1BBB1700F50CF2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E885FDFC1C1BBB1700F50CF2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E885FDFE1C1BBB1700F50CF2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		E885FE001C1BBB1700F50CF2 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		E885FE021C1BBB1700F50CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E885FE041C1BBB1700F50CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E885FDCF1C1BBB1600F50CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E885FDF01C1BBB1700F50CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E885FDC91C1BBB1600F50CF2 = {
+			isa = PBXGroup;
+			children = (
+				E885FDD41C1BBB1600F50CF2 /* HolaMundo */,
+				E885FDE81C1BBB1700F50CF2 /* HolaMundo WatchKit App */,
+				E885FDF71C1BBB1700F50CF2 /* HolaMundo WatchKit Extension */,
+				E885FDD31C1BBB1600F50CF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E885FDD31C1BBB1600F50CF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E885FDD21C1BBB1600F50CF2 /* HolaMundo.app */,
+				E885FDE41C1BBB1700F50CF2 /* HolaMundo WatchKit App.app */,
+				E885FDF31C1BBB1700F50CF2 /* HolaMundo WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E885FDD41C1BBB1600F50CF2 /* HolaMundo */ = {
+			isa = PBXGroup;
+			children = (
+				E885FDD51C1BBB1600F50CF2 /* AppDelegate.swift */,
+				E885FDD71C1BBB1600F50CF2 /* ViewController.swift */,
+				E885FDD91C1BBB1600F50CF2 /* Main.storyboard */,
+				E885FDDC1C1BBB1600F50CF2 /* Assets.xcassets */,
+				E885FDDE1C1BBB1600F50CF2 /* LaunchScreen.storyboard */,
+				E885FDE11C1BBB1600F50CF2 /* Info.plist */,
+			);
+			path = HolaMundo;
+			sourceTree = "<group>";
+		};
+		E885FDE81C1BBB1700F50CF2 /* HolaMundo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E885FDE91C1BBB1700F50CF2 /* Interface.storyboard */,
+				E885FDEC1C1BBB1700F50CF2 /* Assets.xcassets */,
+				E885FDEE1C1BBB1700F50CF2 /* Info.plist */,
+			);
+			path = "HolaMundo WatchKit App";
+			sourceTree = "<group>";
+		};
+		E885FDF71C1BBB1700F50CF2 /* HolaMundo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E885FDFA1C1BBB1700F50CF2 /* InterfaceController.swift */,
+				E885FDFC1C1BBB1700F50CF2 /* ExtensionDelegate.swift */,
+				E885FDFE1C1BBB1700F50CF2 /* NotificationController.swift */,
+				E885FE001C1BBB1700F50CF2 /* GlanceController.swift */,
+				E885FE021C1BBB1700F50CF2 /* Assets.xcassets */,
+				E885FE041C1BBB1700F50CF2 /* Info.plist */,
+				E885FDF81C1BBB1700F50CF2 /* Supporting Files */,
+			);
+			path = "HolaMundo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E885FDF81C1BBB1700F50CF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E885FDF91C1BBB1700F50CF2 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E885FDD11C1BBB1600F50CF2 /* HolaMundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E885FE0F1C1BBB1700F50CF2 /* Build configuration list for PBXNativeTarget "HolaMundo" */;
+			buildPhases = (
+				E885FDCE1C1BBB1600F50CF2 /* Sources */,
+				E885FDCF1C1BBB1600F50CF2 /* Frameworks */,
+				E885FDD01C1BBB1600F50CF2 /* Resources */,
+				E885FE0E1C1BBB1700F50CF2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E885FDE71C1BBB1700F50CF2 /* PBXTargetDependency */,
+			);
+			name = HolaMundo;
+			productName = HolaMundo;
+			productReference = E885FDD21C1BBB1600F50CF2 /* HolaMundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E885FDE31C1BBB1700F50CF2 /* HolaMundo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E885FE0B1C1BBB1700F50CF2 /* Build configuration list for PBXNativeTarget "HolaMundo WatchKit App" */;
+			buildPhases = (
+				E885FDE21C1BBB1700F50CF2 /* Resources */,
+				E885FE0A1C1BBB1700F50CF2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E885FDF61C1BBB1700F50CF2 /* PBXTargetDependency */,
+			);
+			name = "HolaMundo WatchKit App";
+			productName = "HolaMundo WatchKit App";
+			productReference = E885FDE41C1BBB1700F50CF2 /* HolaMundo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E885FDF21C1BBB1700F50CF2 /* HolaMundo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E885FE071C1BBB1700F50CF2 /* Build configuration list for PBXNativeTarget "HolaMundo WatchKit Extension" */;
+			buildPhases = (
+				E885FDEF1C1BBB1700F50CF2 /* Sources */,
+				E885FDF01C1BBB1700F50CF2 /* Frameworks */,
+				E885FDF11C1BBB1700F50CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HolaMundo WatchKit Extension";
+			productName = "HolaMundo WatchKit Extension";
+			productReference = E885FDF31C1BBB1700F50CF2 /* HolaMundo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E885FDCA1C1BBB1600F50CF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Vital Sistemas";
+				TargetAttributes = {
+					E885FDD11C1BBB1600F50CF2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E885FDE31C1BBB1700F50CF2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E885FDF21C1BBB1700F50CF2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = E885FDCD1C1BBB1600F50CF2 /* Build configuration list for PBXProject "HolaMundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E885FDC91C1BBB1600F50CF2;
+			productRefGroup = E885FDD31C1BBB1600F50CF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E885FDD11C1BBB1600F50CF2 /* HolaMundo */,
+				E885FDE31C1BBB1700F50CF2 /* HolaMundo WatchKit App */,
+				E885FDF21C1BBB1700F50CF2 /* HolaMundo WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E885FDD01C1BBB1600F50CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E885FDE01C1BBB1600F50CF2 /* LaunchScreen.storyboard in Resources */,
+				E885FDDD1C1BBB1600F50CF2 /* Assets.xcassets in Resources */,
+				E885FDDB1C1BBB1600F50CF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E885FDE21C1BBB1700F50CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E885FDED1C1BBB1700F50CF2 /* Assets.xcassets in Resources */,
+				E885FDEB1C1BBB1700F50CF2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E885FDF11C1BBB1700F50CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E885FE031C1BBB1700F50CF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E885FDCE1C1BBB1600F50CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E885FDD81C1BBB1600F50CF2 /* ViewController.swift in Sources */,
+				E885FDD61C1BBB1600F50CF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E885FDEF1C1BBB1700F50CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E885FDFF1C1BBB1700F50CF2 /* NotificationController.swift in Sources */,
+				E885FDFD1C1BBB1700F50CF2 /* ExtensionDelegate.swift in Sources */,
+				E885FDFB1C1BBB1700F50CF2 /* InterfaceController.swift in Sources */,
+				E885FE011C1BBB1700F50CF2 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E885FDE71C1BBB1700F50CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E885FDE31C1BBB1700F50CF2 /* HolaMundo WatchKit App */;
+			targetProxy = E885FDE61C1BBB1700F50CF2 /* PBXContainerItemProxy */;
+		};
+		E885FDF61C1BBB1700F50CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E885FDF21C1BBB1700F50CF2 /* HolaMundo WatchKit Extension */;
+			targetProxy = E885FDF51C1BBB1700F50CF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E885FDD91C1BBB1600F50CF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E885FDDA1C1BBB1600F50CF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E885FDDE1C1BBB1600F50CF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E885FDDF1C1BBB1600F50CF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E885FDE91C1BBB1700F50CF2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E885FDEA1C1BBB1700F50CF2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E885FE051C1BBB1700F50CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E885FE061C1BBB1700F50CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E885FE081C1BBB1700F50CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HolaMundo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vital.HolaMundo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E885FE091C1BBB1700F50CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HolaMundo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vital.HolaMundo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		E885FE0C1C1BBB1700F50CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = HolaMundo_WatchKit_Extension;
+				INFOPLIST_FILE = "HolaMundo WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = vital.HolaMundo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E885FE0D1C1BBB1700F50CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = HolaMundo_WatchKit_Extension;
+				INFOPLIST_FILE = "HolaMundo WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = vital.HolaMundo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		E885FE101C1BBB1700F50CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolaMundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vital.HolaMundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E885FE111C1BBB1700F50CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolaMundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vital.HolaMundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E885FDCD1C1BBB1600F50CF2 /* Build configuration list for PBXProject "HolaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E885FE051C1BBB1700F50CF2 /* Debug */,
+				E885FE061C1BBB1700F50CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E885FE071C1BBB1700F50CF2 /* Build configuration list for PBXNativeTarget "HolaMundo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E885FE081C1BBB1700F50CF2 /* Debug */,
+				E885FE091C1BBB1700F50CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E885FE0B1C1BBB1700F50CF2 /* Build configuration list for PBXNativeTarget "HolaMundo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E885FE0C1C1BBB1700F50CF2 /* Debug */,
+				E885FE0D1C1BBB1700F50CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E885FE0F1C1BBB1700F50CF2 /* Build configuration list for PBXNativeTarget "HolaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E885FE101C1BBB1700F50CF2 /* Debug */,
+				E885FE111C1BBB1700F50CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E885FDCA1C1BBB1600F50CF2 /* Project object */;
+}
